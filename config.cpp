@@ -119,4 +119,32 @@ class CfgVehicles {
     displayName = "barraco_17";
     model = "favela_props\barraco_17.p3d"; // Path to your new model
     };
+    class escada1: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada1";
+    model = "favela_props\escada1.p3d"; // Path to your new model
+    };
+    class escada2: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada2";
+    model = "favela_props\escada2.p3d"; // Path to your new model
+    };
+    class escada3: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada3";
+    model = "favela_props\escada3.p3d"; // Path to your new model
+    };
+    class escada4: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada4";
+    model = "favela_props\escada4.p3d"; // Path to your new model
+    };
+    class escada5: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada5";
+    model = "favela_props\escada5.p3d"; // Path to your new model
+    };
+    class escada6: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada6";
+    model = "favela_props\escada6.p3d"; // Path to your new model
+    };
+    class escada7: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "escada7";
+    model = "favela_props\escada7.p3d"; // Path to your new model
+    };
 };
