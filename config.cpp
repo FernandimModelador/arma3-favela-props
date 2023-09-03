@@ -38,6 +38,10 @@ class CfgEditorSubcategories
     {
         displayName = "Props da Favela"; // Name visible in the list
     };
+        class RuasFavela // Category class, you point to it in editorSubcategory property
+    {
+        displayName = "Ruas"; // Name visible in the list
+    };
 };
 
 
@@ -170,4 +174,35 @@ class CfgVehicles {
     model = "favela_props\escada7.p3d"; // Path to your new model
     editorSubcategory = "ExtrasFavela";
     };
+
+    class calcada: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "calcada";
+    model = "favela_props\calcada.p3d"; // Path to your new model
+    editorSubcategory = "RuasFavela";
+    };
+
+    class curva: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "curva";
+    model = "favela_props\curva.p3d"; // Path to your new model
+    editorSubcategory = "RuasFavela";
+    };
+
+    class morro: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "morro";
+    model = "favela_props\morro.p3d"; // Path to your new model
+    editorSubcategory = "RuasFavela";
+    };
+
+    class rampa: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "rampa";
+    model = "favela_props\rampa.p3d"; // Path to your new model
+    editorSubcategory = "RuasFavela";
+    };
+
+    class ruareta: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "Rua Reta";
+    model = "favela_props\ruareta.p3d"; // Path to your new model
+    editorSubcategory = "RuasFavela";
+    };
+
 };

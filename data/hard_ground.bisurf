@@ -1,0 +1,11 @@
+Density=600;
+rough=0.1;
+dust=0;
+bulletPenetrability=320;
+soundEnviron=Empty;
+isWater=false;
+friction=0.7;
+restitution=0.4;
+impact = hitGroundHard;
+soundHit = hard_ground;
+deflection = 0.4;
