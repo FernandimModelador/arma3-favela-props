@@ -139,6 +139,18 @@ class CfgVehicles {
     displayName = "barraco_17";
     model = "favela_props\barraco_17.p3d"; // Path to your new model
     };
+//GN Modelagens convertidas
+    class GN_barraco01: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "GN_barraco01";
+    model = "favela_props\GN_barraco01.p3d"; // Path to your new model
+    };
+
+    class GN_barraco02: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "GN_barraco02";
+    model = "favela_props\GN_barraco02.p3d"; // Path to your new model
+    };
+
+//GN Modelagens Convertidas termino
     class escada1: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada1";
     model = "favela_props\escada1.p3d"; // Path to your new model
@@ -202,6 +214,12 @@ class CfgVehicles {
     class ruareta: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "Rua Reta";
     model = "favela_props\ruareta.p3d"; // Path to your new model
+    editorSubcategory = "RuasFavela";
+    };
+
+    class lombada: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "lombada";
+    model = "favela_props\lombada.p3d"; // Path to your new model
     editorSubcategory = "RuasFavela";
     };
 
