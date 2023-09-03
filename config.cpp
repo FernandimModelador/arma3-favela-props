@@ -7,15 +7,8 @@ class CfgPatches {
     };
 };
 
-class CfgFactionClasses {
-    class Empty { // Define the custom faction class
-        displayName = "Props Favela";
-        author = "Fernandim";
-        //icon = "Directory to faction Icon"; // Needs to be 16x16 in resolution and it needs to be in the form of a PAA.
-        priority = 2;
-        side = 7; // Empty
-    };
-};
+
+
 
 class CfgVehicleClasses {
     class Objects {
@@ -26,6 +19,27 @@ class CfgVehicleClasses {
         displayName = "Barracos"; // Rename to what you want the sub-group of the faction will be.
     };
 };
+
+class CfgEditorCategories
+{
+    class FavelaProps
+    {
+        displayName = "Favela Props";
+    };
+};
+
+class CfgEditorSubcategories
+{
+    class Barracos // Category class, you point to it in editorSubcategory property
+    {
+        displayName = "Barracos"; // Name visible in the list
+    };
+        class ExtrasFavela // Category class, you point to it in editorSubcategory property
+    {
+        displayName = "Props da Favela"; // Name visible in the list
+    };
+};
+
 
 class CfgVehicles {
     class All {};
@@ -43,6 +57,8 @@ class CfgVehicles {
         faction = "Empty"; // Assign it to the custom faction "Empty"
         vehicleClass = "Barracos"; // Assign it to the custom unit class "Barracos"
         armor = 20000;
+        editorCategory = "FavelaProps";
+        editorSubcategory = "Barracos";
     };
 
     class barraco_02: cubo { // Define the new vehicle class barraco_02 based on cubo
@@ -122,29 +138,36 @@ class CfgVehicles {
     class escada1: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada1";
     model = "favela_props\escada1.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela"
     };
     class escada2: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada2";
     model = "favela_props\escada2.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
     };
     class escada3: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada3";
     model = "favela_props\escada3.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
     };
     class escada4: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada4";
     model = "favela_props\escada4.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
     };
     class escada5: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada5";
     model = "favela_props\escada5.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
     };
     class escada6: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada6";
     model = "favela_props\escada6.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
     };
     class escada7: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "escada7";
     model = "favela_props\escada7.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
     };
 };
