@@ -53,7 +53,7 @@ class CfgVehicles {
     class TargetTraining: NonStrategic {};
     class TargetGrenade: TargetTraining {};
 
-    class cubo: TargetGrenade {
+    class cubo: TargetTraining {
         scope = 2; // 2 means it's available in the editor
         displayName = "barraco_01";
         model = "favela_props\barraco_01.p3d"; // Path to your model
@@ -139,6 +139,14 @@ class CfgVehicles {
     displayName = "barraco_17";
     model = "favela_props\barraco_17.p3d"; // Path to your new model
     };
+
+//Casas França favela
+    class casa1: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "casa1";
+    model = "favela_props\casa1.p3d"; // Path to your new model
+    };
+
+
 //GN Modelagens convertidas
     class GN_barraco01: cubo { // Define the new vehicle class barraco_17 based on cubo
     displayName = "GN_barraco01";
