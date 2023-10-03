@@ -145,6 +145,27 @@ class CfgVehicles {
     model = "favela_props\barraco_18.p3d"; // Path to your new model
     };
 
+    class barraco_19: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "barraco_19";
+    model = "favela_props\barraco_19.p3d"; // Path to your new model
+    };
+
+    class barraco_20: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "barraco_20";
+    model = "favela_props\barraco_20.p3d"; // Path to your new model
+    };
+
+    class barraco_21: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "barraco_21";
+    model = "favela_props\barraco_21.p3d"; // Path to your new model
+    };
+
+    class barraco_22: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "barraco_22";
+    model = "favela_props\barraco_22.p3d"; // Path to your new model
+    };
+
+
 //Casas França favela
     class casa1: cubo { // Define the new vehicle class barraco_17 based on cubo
     displayName = "casa1";
