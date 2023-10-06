@@ -49,11 +49,9 @@ class CfgVehicles {
     class All {};
     class Static: All {};
     class Building: Static{};
-    class NonStrategic: Building {};
-    class TargetTraining: NonStrategic {};
-    class TargetGrenade: TargetTraining {};
+    class House:Building{};
 
-    class cubo: TargetTraining {
+    class cubo: House {
         scope = 2; // 2 means it's available in the editor
         displayName = "barraco_01";
         model = "favela_props\barraco_01.p3d"; // Path to your model
