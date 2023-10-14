@@ -241,6 +241,18 @@ class CfgVehicles {
     editorSubcategory = "ExtrasFavela";
     };
 
+     class ar15: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "ar15";
+    model = "favela_props\ar15.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
+    };
+
+     class maconha: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "maconhahao";
+    model = "favela_props\maconha.p3d"; // Path to your new model
+    editorSubcategory = "ExtrasFavela";
+    };
+
     class calcada: cubo { // Define the new vehicle class escada1 based on cubo
     displayName = "calcada";
     model = "favela_props\calcada.p3d"; // Path to your new model
