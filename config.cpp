@@ -42,6 +42,10 @@ class CfgEditorSubcategories
     {
         displayName = "Ruas"; // Name visible in the list
     };
+        class GrafitesFavelas // Category class, you point to it in editorSubcategory property
+    {
+        displayName = "Grafites"; // Name visible in the list
+    };
 };
 
 
@@ -271,6 +275,159 @@ class CfgVehicles {
     displayName = "lombada";
     model = "favela_props\lombada.p3d"; // Path to your new model
     editorSubcategory = "RuasFavela";
+    };
+
+    class grafite01: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite01";
+    model = "favela_props\grafite01.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite02: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite02";
+    model = "favela_props\grafite02.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite03: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite03";
+    model = "favela_props\grafite03.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite04: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite04";
+    model = "favela_props\grafite04.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite05: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite05";
+    model = "favela_props\grafite05.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite07: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite07";
+    model = "favela_props\grafite07.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite08: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite08";
+    model = "favela_props\grafite08.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite09: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite09";
+    model = "favela_props\grafite09.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite10: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite10";
+    model = "favela_props\grafite10.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite11: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite11";
+    model = "favela_props\grafite11.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite12: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite12";
+    model = "favela_props\grafite12.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite13: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite13";
+    model = "favela_props\grafite13.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite14: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite14";
+    model = "favela_props\grafite14.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite15: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite15";
+    model = "favela_props\grafite15.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite16: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite16";
+    model = "favela_props\grafite16.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+    class grafite17: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite17";
+    model = "favela_props\grafite17.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+    class grafite18: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite18";
+    model = "favela_props\grafite18.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+    class grafite19: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite19";
+    model = "favela_props\grafite19.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite20: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite20";
+    model = "favela_props\grafite20.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite21: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite21";
+    model = "favela_props\grafite21.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite22: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite22";
+    model = "favela_props\grafite22.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite23: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite23";
+    model = "favela_props\grafite23.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite24: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite24";
+    model = "favela_props\grafite24.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite25: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite25";
+    model = "favela_props\grafite25.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite26: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite26";
+    model = "favela_props\grafite26.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
+    };
+
+    class grafite27: cubo { // Define the new vehicle class escada1 based on cubo
+    displayName = "grafite27";
+    model = "favela_props\grafite27.p3d"; // Path to your new model
+    editorSubcategory = "GrafitesFavelas";
     };
 
 };
