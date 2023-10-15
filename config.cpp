@@ -174,6 +174,18 @@ class CfgVehicles {
     model = "favela_props\casa1.p3d"; // Path to your new model
     };
 
+//Casas França favela
+    class antenacda: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "antenacda";
+    model = "favela_props\antenacda.p3d"; // Path to your new model
+    };
+
+//Casas França favela
+    class prediocda: cubo { // Define the new vehicle class barraco_17 based on cubo
+    displayName = "prediocda";
+    model = "favela_props\prediocda.p3d"; // Path to your new model
+    };
+
 
 //GN Modelagens convertidas
     class GN_barraco01: cubo { // Define the new vehicle class barraco_17 based on cubo
