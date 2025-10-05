@@ -171,6 +171,40 @@ class CfgVehicles {
     };
 
 
+//Casas Novas
+class casa_1: prop { 
+    displayName = "casa_1";
+    model = "favela_props\models\casa_1.p3d"; 
+    };
+
+    class casa_2: prop { 
+        displayName = "casa_2";
+        model = "favela_props\models\casa_2.p3d"; 
+        };
+        class casa_3: prop { 
+            displayName = "casa_3";
+            model = "favela_props\models\casa_3.p3d"; 
+            };
+            class casa_4: prop { 
+                displayName = "casa_4";
+                model = "favela_props\models\casa_4.p3d"; 
+                };
+
+                class casa_5: prop { 
+                    displayName = "casa_5";
+                    model = "favela_props\models\casa_5.p3d"; 
+                    };
+
+                    class casa_6: prop { 
+                        displayName = "casa_6";
+                        model = "favela_props\models\casa_6.p3d"; 
+                        };
+                        
+                        class casa_7: prop { 
+                            displayName = "casa_7";
+                            model = "favela_props\models\casa_7.p3d"; 
+                            };
+
 
 //Casas França favela
     class casa1: prop { 
