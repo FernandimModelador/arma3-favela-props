@@ -114,7 +114,7 @@ class CfgVehicles {
         //hiddenSelections[] = {"prop"}; // Replace with your texture selection name
         //faction = "Empty"; // Assign it to the custom faction "Empty"
         vehicleClass = "Barracos"; // Assign it to the custom unit class "Barracos"
-        armor = 20000;
+        armor = 100000;
         editorCategory = "FavelaProps";
         editorSubcategory = "Barracos";
     };
